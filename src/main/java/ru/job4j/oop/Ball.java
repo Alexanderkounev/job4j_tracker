@@ -2,7 +2,7 @@ package ru.job4j.oop;
 
 public class Ball {
     public Ball tryRun(boolean condition) {
-        if (condition == true) {
+        if (condition) {
             System.out.println("tryEat");
             } else {
             System.out.println("tryRun");
