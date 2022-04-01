@@ -8,7 +8,7 @@ public class Doctor extends Profession {
         super(name, surname, education, birthday);
         }
 
-    public Doctor work(Doctor place){
+    public Doctor work(Doctor place) {
         return place;
     }
 }
