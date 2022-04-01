@@ -10,6 +10,8 @@ public class Programmer extends Engineer {
         super(name, surname, education, birthday);
     }
 
-    public Programming code(Level level) {}
+    public Level code(Level level) {
+        return level;
+    }
 
 }

@@ -8,6 +8,8 @@ public class Surgeon extends Doctor{
         super(name, surname, education, birthday);
     }
 
-    public Operation difficult(Pacient pacient) {}
+    public Operation difficult(Operation pacient) {
+        return pacient;
+    }
 
 }

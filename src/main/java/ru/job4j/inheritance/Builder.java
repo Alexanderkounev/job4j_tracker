@@ -8,5 +8,8 @@ public class Builder extends Engineer{
         super(name, surname, education, birthday);
     }
 
-    public House material(Object brick) {}
+    public House material(House brick) {
+        return brick;
+    }
+
 }

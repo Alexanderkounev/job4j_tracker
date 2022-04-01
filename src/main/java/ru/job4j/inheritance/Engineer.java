@@ -8,5 +8,7 @@ public class Engineer extends Profession {
         super(name, surname, education, birthday);
     }
 
-    public Engineer rank(Engineer rank) {}
+    public Engineer rank(Engineer rank) {
+        return rank;
+    }
 }

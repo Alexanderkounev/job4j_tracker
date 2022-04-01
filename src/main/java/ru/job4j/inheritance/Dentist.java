@@ -8,6 +8,8 @@ public class Dentist extends Doctor{
         super(name, surname, education, birthday);
     }
 
-    public Specialization Dent(Specialization specialization) {}
+    public Specialization Dent(Specialization specialization) {
+        return specialization;
+    }
 
 }
