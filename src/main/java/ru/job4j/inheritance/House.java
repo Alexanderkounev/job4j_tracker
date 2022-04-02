@@ -1,4 +1,4 @@
 package ru.job4j.inheritance;
 
-public class House {
+public class House  {
 }
