@@ -1,6 +1,7 @@
 package ru.job4j.inheritance;
 
-public class Profession  {
+public class Profession {
+
     private String name;
     private String surname;
     private String education;
@@ -14,7 +15,7 @@ public class Profession  {
         return surname;
     }
 
-    public  String getEducation() {
+    public String getEducation() {
         return education;
     }
 

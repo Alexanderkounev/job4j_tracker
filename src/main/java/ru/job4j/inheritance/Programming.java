@@ -1,4 +1,4 @@
 package ru.job4j.inheritance;
 
-public class Programming  {
+public class Programming {
 }
