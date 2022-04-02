@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 public class JSONReportTest {
 
     @Test
-    public void whenTestGenerateMethod() {
+    public void whenTestGenerateMethod()  {
         String ln = System.lineSeparator();
         String expected = "{" + ln
                 + "\t\"name\" : \"Report's name\"," + ln
