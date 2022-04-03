@@ -2,7 +2,7 @@ package ru.job4j.inheritance;
 
 import java.util.logging.Level;
 
-public class Programmer extends Engineer  {
+public class Programmer extends Engineer {
 
     private String level;
 
