@@ -15,7 +15,9 @@ public class Matches {
             if ((matches > 0) && (matches < 4) && (matches <= count)) {
                 count = count - matches;
                 turn = !turn;
-            } else System.out.println("Ошибка. Введите корректное число спичек.");
+            } else {
+                System.out.println("Ошибка. Введите корректное число спичек.");
+                }
             System.out.println("На столе осталось " + count + " спичек.");
         }
         if (!turn) {
