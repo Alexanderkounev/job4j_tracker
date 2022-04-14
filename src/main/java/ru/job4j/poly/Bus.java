@@ -4,12 +4,12 @@ public class Bus implements Transport {
 
     @Override
     public void askDrive() {
-
+        askDrive();
     }
 
     @Override
     public void askPassengers(int numbers) {
-
+        askPassengers(14);
     }
 
     @Override
